@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid;
+        background-color: aqua;
+    }
+
+    .heading {
+        background-color: #ffebcd;
+        border: 1px solid black;
+        font-size: large;
+        color: red;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <table>
+            <!-- <tr><th class="heading">User Form</th></tr> -->
+            <caption class="heading"><strong>User Form</strong></caption>
+            <tr>
+                <td>Enter Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Enter Password</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Enter Address</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Select Game</td>
+                <td>
+                    <ul>
+                        <label>
+                            Hockey
+                            <input type="checkbox" name="option2" value="Option 2"><br>
+                        </label>
+                        <label>
+                            Cricket
+                            <input type="checkbox" name="option2" value="Option 2"><br>
+                        </label>
+                        <label>
+                            Football
+                            <input type="checkbox" name="option2" value="Option 2"><br>
+                        </label>
+                        <label>
+                            Rugby
+                            <input type="checkbox" name="option2" value="Option 2"><br>
+                        </label>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <label>
+                        <input type="radio" name="Male" value="Option 1">
+                        Male
+                    </label>
+                    <label>
+                        <input type="radio" name="Female" value="Option 2">
+                        Female
+                    </label><br>
+                    <label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="file-upload">Choose a file:</label>
+                </td>
+                <td>
+                    <input type="file" id="file-upload" name="file-upload">
+                </td>
+            </tr>
+            <tr>
+                <td><button>Click me</button></td>
+                <td><button>reset</button><button>Submit</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
